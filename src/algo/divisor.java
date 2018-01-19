@@ -1,6 +1,7 @@
 package imageio;
 
 import java.util.Arrays;
+import java.util.List;
 
 public class divisor {
 	
@@ -23,7 +24,13 @@ public class divisor {
 			}
 		}
 		
-		//ret = Arrays.stream(array).filter(factor -> factor % divisor == 0).toArray();
+		ret = Arrays.stream(array).filter(factor -> factor % divisor == 0).toArray();
+		
+		
+		List<String> nums = Arrays.asList("1", "2", "3");
+		int sum = nums.stream().mapToInt(Integer::parseInt).filter(i -> 1 % 2 == 1).sum();
+		
+		
 		return ret;
 	}
 	// 아래는 테스트로 출력해 보기 위한 코드입니다.
