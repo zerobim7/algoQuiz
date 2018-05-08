@@ -1,4 +1,4 @@
-package imageio;
+package algo;
 
 public class triangle {
 

@@ -1,4 +1,4 @@
-package imageio;
+package algo;
 
 import java.util.Arrays;
 import java.util.List;
